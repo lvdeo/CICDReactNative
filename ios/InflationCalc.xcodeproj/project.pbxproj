@@ -20,6 +20,7 @@
 		C04FE16DB89866D9FF60C6AD /* libPods-InflationCalc-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7DA3F8A9149F0CD68780CD7 /* libPods-InflationCalc-tvOSTests.a */; };
 		C959A69F0A17702D92F5A0B4 /* libPods-InflationCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE28566CA100AE2B610B4D4E /* libPods-InflationCalc.a */; };
 		ED4CD2F0AABB4BDA65BEE23F /* libPods-InflationCalc-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7C0A3F94A7D81F963D98165 /* libPods-InflationCalc-tvOS.a */; };
+		F40202922573CFDB0006EB1E /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = F40202912573CFDB0006EB1E /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		DE28566CA100AE2B610B4D4E /* libPods-InflationCalc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InflationCalc.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F40202912573CFDB0006EB1E /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		F7C0A3F94A7D81F963D98165 /* libPods-InflationCalc-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InflationCalc-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -161,7 +163,6 @@
 				7FA226F08706989B1A105AA8 /* Pods-InflationCalc-tvOSTests.debug.xcconfig */,
 				2FF5A1157ADEC4B2D7EFADF7 /* Pods-InflationCalc-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,6 +176,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				F40202912573CFDB0006EB1E /* AppCenter-Config.plist */,
 				13B07FAE1A68108700A75B9A /* InflationCalc */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* InflationCalcTests */,
@@ -342,6 +344,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F40202922573CFDB0006EB1E /* AppCenter-Config.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
